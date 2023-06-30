@@ -1,0 +1,193 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    padding: 90px 20px 0;
+}
+.header{
+    background-color:white;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 992px;
+    margin: 0 auto;
+}
+.nav-link{
+    color:blue;
+    text-decoration: none;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+}
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+
+
+.nav-menu-link:hover{
+    background-color: black;
+    transition: 0.5s;
+}
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+
+}
+.nav-menu-item{
+    font-size: 18px;
+    margin: opx;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+/*copa*/
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    background-color: blue;
+    width: 100%;
+}
+ 
+
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*lema*/
+.lema{
+    display: grid;
+    grid-template-columns: auto auto;
+    max-width: 60%;
+}
+.war{
+    color: blue;
+    
+}
+.lema1{
+    padding: 20px;
+    margin-left:0%;
+    max-width: 100%;
+}
+.lema2{
+   
+    padding: px;
+    
+    
+
+}
+/*ciudades*/
+.ciudades{
+    border: 3px ridge blue;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-left: 90px;
+    padding: 4px;
+}
+.borde{
+    border: 3px ridge blue;
+}
+/*parrafos*/
+.ciudadestex{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-left: 100px;
+}
+.eche1{
+    padding-left:50px;
+}
+.eche2{
+  
+   padding-left: 50px;
+}
+/*titulos*/
+h1{
+    color: blue;
+    text-align: center;
+}
+.tciudad{
+    color: blue;
+    text-align: center;
+}
+/*bordedeimagenes*/
+.putas{
+    border: 3px dashed blue;
+    
+}
+/*estadios*/
+.doble{
+    border: 3px ridge blue;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-left: 90px;
+    padding: 4px;
+   
+   
+}
+.doble1{
+    border: 3px ridge blue;
+    padding: 1px;
+    margin-left:1%;
+    max-width: 60%;
+   
+    
+}
+.doble2{
+    border: 3px ridge blue;
+    max-width: 84%;
+}
+
+
+/*equipos*/
+.tare{
+    display: flex;
+    grid-column: auto auto;
+}
+.taro{
+    margin-left:30px;
+  margin-right: 0%;
+}
+/*fiesta*/
+.fiesta{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+/*patrocinadores*/
+.logos5{
+    padding: 4px;
+    border: 3px ridge blue;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+   padding: -30px;
+}
+
